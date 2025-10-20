@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PRIMARY SEO META TAGS -->
+    <title>Voicently | #1 AI Voice Agents for Business | Jacksonville FL & USA</title>
+    <meta name="description" content="Transform your business with Voicently's AI voice agents. 24/7 phone answering, appointment booking, and lead qualification. Free trial available. Trusted by 500+ businesses in Jacksonville FL and nationwide.">
+    <meta name="keywords" content="voice ai, ai phone system, ai receptionist, conversational ai, ai call center, voice automation, jacksonville fl, ai customer service, ai appointment scheduling, automated phone answering, voice ai jacksonville">
+    
+    <!-- CANONICAL URL -->
+    <link rel="canonical" href="https://voicently.com/">
+    
+    <!-- OPEN GRAPH / FACEBOOK -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://voicently.com/">
+    <meta property="og:title" content="Voicently | AI Voice Agents for Business Automation">
+    <meta property="og:description" content="Never miss a customer call. Our AI voice agents handle calls 24/7, book appointments, and qualify leads automatically.">
+    <meta property="og:image" content="https://voicently.com/og-image.jpg">
+    
+    <!-- TWITTER -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://voicently.com/">
+    <meta property="twitter:title" content="Voicently | AI Voice Agents for Business">
+    <meta property="twitter:description" content="Transform your customer service with AI voice agents that work 24/7.">
+    <meta property="twitter:image" content="https://voicently.com/twitter-image.jpg">
+    
+    <!-- SCHEMA.ORG STRUCTURED DATA -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Voicently",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "297",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "500"
+      },
+      "description": "AI-powered voice agents for business phone systems, appointment booking, and customer service automation"
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Voicently",
+      "image": "https://voicently.com/logo.jpg",
+      "@id": "https://voicently.com",
+      "url": "https://voicently.com",
+      "telephone": "+1-904-555-8642",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Innovation Drive",
+        "addressLocality": "Jacksonville",
+        "addressRegion": "FL",
+        "postalCode": "32202",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.3322,
+        "longitude": -81.6557
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is Voicently?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voicently is an AI-powered voice agent platform that handles business phone calls 24/7, books appointments, qualifies leads, and provides customer service automatically."
+        }
+      },{
+        "@type": "Question",
+        "name": "How much does Voicently cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voicently pricing starts at $297/month for the Starter plan with up to 500 calls per month. We offer a 30-day free trial with no credit card required."
+        }
+      },{
+        "@type": "Question",
+        "name": "Does the AI sound robotic?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, Voicently uses advanced neural voice synthesis trained on millions of human conversations. Voice patterns, intonation, and natural pauses are indistinguishable from human agents."
+        }
+      }]
+    }
+    </script>
+    
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FAVICON -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Rajdhani', sans-serif;
+            background: #000000;
+            color: #ffffff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Background Effects */
+        .bg-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: gridMove 20s linear infinite;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        @keyframes gridMove {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(90deg, #00ffff 0%, #8a2be2 50%, #00ffff 100%);
+            background-size: 200% auto;
+            animation: shimmer 3s linear infinite;
+            padding: 15px 0;
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: #000;
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 0% center; }
+            100% { background-position: 200% center; }
+        }
+
+        /* Navigation */
+        nav {
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .logo {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 48px;
+            font-weight: 900;
+            letter-spacing: 8px;
+            background: linear-gradient(135deg, #00ffff, #8a2be2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .tagline {
+            font-size: 14px;
+            letter-spacing: 4px;
+            color: #00ffff;
+            margin-top: 10px;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 56px;
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 30px;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #00ffff, #8a2be2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-description {
+            font-size: 24px;
+            color: #a0a0a0;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #00ffff, #8a2be2);
+            color: #000;
+            padding: 20px 50px;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 18px;
+            font-weight: 900;
+            text-decoration: none;
+            letter-spacing: 3px;
+            transition: transform 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.6);
+        }
+
+        /* Stats Section */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 80px 0;
+        }
+
+        .stat-card {
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            padding: 40px 20px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .stat-card:hover {
+            border-color: #00ffff;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+        }
+
+        .stat-number {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 48px;
+            font-weight: 900;
+            color: #00ffff;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #a0a0a0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Features Grid */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 80px 0;
+        }
+
+        .feature-card {
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            background: rgba(0, 0, 0, 0.8);
+            padding: 40px;
+            transition: all 0.3s;
+        }
+
+        .feature-card:hover {
+            border-color: #00ffff;
+            transform: translateY(-10px);
+        }
+
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .feature-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 24px;
+            color: #00ffff;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+
+        .feature-desc {
+            color: #a0a0a0;
+            line-height: 1.8;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            margin: 80px 0;
+        }
+
+        .section-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 42px;
+            text-align: center;
+            margin-bottom: 60px;
+            letter-spacing: 3px;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            border-left: 4px solid #00ffff;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+        }
+
+        .stars {
+            color: #00ffff;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-text {
+            color: #a0a0a0;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            color: #00ffff;
+            font-weight: 700;
+        }
+
+        .testimonial-company {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* FAQ Section */
+        .faq {
+            margin: 80px 0;
+        }
+
+        .faq-item {
+            border-left: 3px solid #00ffff;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        .faq-question {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 20px;
+            color: #00ffff;
+            margin-bottom: 15px;
+        }
+
+        .faq-answer {
+            color: #a0a0a0;
+            line-height: 1.8;
+        }
+
+        /* Form Section */
+        .form-section {
+            background: rgba(0, 0, 0, 0.95);
+            border: 2px solid #00ffff;
+            padding: 60px 40px;
+            max-width: 600px;
+            margin: 80px auto;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            color: #00ffff;
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            color: #ffffff;
+            font-size: 16px;
+            font-family: 'Rajdhani', sans-serif;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #00ffff;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+        }
+
+        .submit-button {
+            width: 100%;
+            background: linear-gradient(135deg, #00ffff, #8a2be2);
+            color: #000;
+            border: none;
+            padding: 20px;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 18px;
+            font-weight: 900;
+            cursor: pointer;
+            letter-spacing: 3px;
+        }
+
+        .submit-button:hover {
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.6);
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(0, 255, 255, 0.2);
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .footer-logo {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 32px;
+            font-weight: 900;
+            color: #00ffff;
+            margin-bottom: 20px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+            
+            .hero-description {
+                font-size: 18px;
+            }
+            
+            .logo {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body itemscope itemtype="https://schema.org/WebPage">
+    <!-- Background -->
+    <div class="bg-grid"></div>
+
+    <!-- Announcement Bar -->
+    <header>
+        ⚡ EARLY ACCESS: First 50 Organizations Get Lifetime 40% Discount
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <h2 class="logo" itemprop="name">VOICENTLY</h2>
+            <p class="tagline">THE FUTURE OF COMMUNICATION</p>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 itemprop="headline">
+                Autonomous <span class="gradient-text">Voice Intelligence</span><br>
+                For Modern Businesses
+            </h1>
+            <p class="hero-description" itemprop="description">
+                Deploy advanced AI voice agents that operate 24/7/365 with human-level conversation. 
+                Handle customer calls, book appointments, and qualify leads automatically. 
+                No training required. No downtime. Pure efficiency.
+            </p>
+            <a href="#contact" class="cta-button">⚡ REQUEST ACCESS CODE</a>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats" style="display: grid;">
+                <article class="stat-card" itemscope itemtype="https://schema.org/Thing">
+                    <div class="stat-number" itemprop="value">99.9%</div>
+                    <div class="stat-label">System Uptime</div>
+                </article>
+                <article class="stat-card">
+                    <div class="stat-number">&lt;500ms</div>
+                    <div class="stat-label">Response Time</div>
+                </article>
+                <article class="stat-card">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Active Businesses</div>
+                </article>
+                <article class="stat-card">
+                    <div class="stat-number">45+</div>
+                    <div class="stat-label">Languages Supported</div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">CORE CAPABILITIES</h2>
+            <div class="features" style="display: grid;">
+                <article class="feature-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title" itemprop="name">AI Phone Answering</h3>
+                    <p class="feature-desc" itemprop="description">
+                        Never miss a call again. Our AI receptionist answers every call 24/7, handles customer inquiries, and routes calls intelligently to the right department.
+                    </p>
+                </article>
+
+                <article class="feature-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="feature-icon">📅</div>
+                    <h3 class="feature-title" itemprop="name">Appointment Booking</h3>
+                    <p class="feature-desc" itemprop="description">
+                        Automate scheduling with AI that books appointments, sends confirmations, and reduces no-shows by 70%. Integrates with Google Calendar and major CRM systems.
+                    </p>
+                </article>
+
+                <article class="feature-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title" itemprop="name">Lead Qualification</h3>
+                    <p class="feature-desc" itemprop="description">
+                        AI agents qualify leads automatically, gather critical information, and pass hot prospects directly to your sales team with complete conversation transcripts.
+                    </p>
+                </article>
+
+                <article class="feature-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title" itemprop="name">Enterprise Security</h3>
+                    <p class="feature-desc" itemprop="description">
+                        Military-grade encryption, SOC 2 Type II compliance, HIPAA ready. Your data is protected by the same systems used by Fortune 500 companies.
+                    </p>
+                </article>
+
+                <article class="feature-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="feature-icon">🔗</div>
+                    <h3 class="feature-title" itemprop="name">Universal Integration</h3>
+                    <p class="feature-desc" itemprop="description">
+                        Connects seamlessly with Salesforce, HubSpot, Zendesk, Google Workspace, Microsoft 365, and 1000+ other business tools via API.
+                    </p>
+                </article>
+
+                <article class="feature-card" itemscope itemtype="https://schema.org/Service">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title" itemprop="name">Real-Time Analytics</h3>
+                    <p class="feature-desc" itemprop="description">
+                        Track every interaction with AI-powered insights. Monitor call volume, conversion rates, customer sentiment, and ROI in real-time dashboards.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">WHAT CLIENTS SAY</h2>
+            <div class="testimonial-grid">
+                <article class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text" itemprop="reviewBody">
+                        "Voicently transformed our customer service. We went from missing 40% of calls to answering 100%. Revenue increased by $50k in the first month alone."
+                    </p>
+                    <p class="testimonial-author" itemprop="author">Michael Chen</p>
+                    <p class="testimonial-company">Premier HVAC Services, Jacksonville FL</p>
+                </article>
+
+                <article class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text" itemprop="reviewBody">
+                        "The AI sounds completely human. Our customers can't tell the difference. It's handling 200+ calls per day and booking appointments automatically."
+                    </p>
+                    <p class="testimonial-author" itemprop="author">Sarah Martinez</p>
+                    <p class="testimonial-company">Elite Dental Group</p>
+                </article>
+
+                <article class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text" itemprop="reviewBody">
+                        "Best investment we've made. Saved $6,000/month on call center costs while improving customer satisfaction scores by 35%. ROI was immediate."
+                    </p>
+                    <p class="testimonial-author" itemprop="author">David Thompson</p>
+                    <p class="testimonial-company">Thompson Law Firm</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" itemscope itemtype="https://schema.org/FAQPage">
+        <div class="container">
+            <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+            
+            <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="faq-question" itemprop="name">What is Voicently and how does it work?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p class="faq-answer" itemprop="text">
+                        Voicently is an AI-powered voice agent platform that handles business phone calls 24/7. It answers calls, books appointments, qualifies leads, and provides customer service automatically using advanced neural voice technology that sounds completely human.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="faq-question" itemprop="name">How much does Voicently cost?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p class="faq-answer" itemprop="text">
+                        Pricing starts at $297/month for the Starter plan (up to 500 calls). Professional plan is $697/month (up to 2,000 calls). We offer a 30-day free trial with no credit card required. Enterprise plans available with custom pricing.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="faq-question" itemprop="name">Does the AI sound robotic?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p class="faq-answer" itemprop="text">
+                        No. Voicently uses advanced neural voice synthesis trained on millions of human conversations. Voice patterns, intonation, natural pauses, and emotional intelligence make our AI agents indistinguishable from human agents.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="faq-question" itemprop="name">How quickly can I get started?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p class="faq-answer" itemprop="text">
+                        Most businesses are up and running within 24-48 hours. Our automated deployment system handles configuration, testing, and optimization. No technical skills required.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="faq-question" itemprop="name">Can Voicently integrate with my existing tools?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p class="faq-answer" itemprop="text">
+                        Yes. Voicently integrates with 1000+ systems including Salesforce, HubSpot, Google Calendar, Microsoft 365, Zendesk, and custom APIs. Integration is automated through our setup wizard.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="faq-question" itemprop="name">What industries does Voicently serve?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p class="faq-answer" itemprop="text">
+                        Voicently serves healthcare, legal, real estate, HVAC, dental, automotive, retail, and professional services. Any business that receives phone calls can benefit from our AI voice agents.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="form-section">
+        <div class="container">
+            <h2 class="section-title" style="margin-bottom: 30px;">INITIATE DEPLOYMENT</h2>
+            <p style="text-align: center; color: #a0a0a0; margin-bottom: 40px;">
+                Join 500+ businesses already using AI to scale. Limited access codes available.
+            </p>
+
+            <form id="contactForm" action="https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse" method="POST" target="hidden_iframe">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="entry.YOUR_NAME_ID" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="company">Organization</label>
+                    <input type="text" id="company" name="entry.YOUR_COMPANY_ID" required placeholder="Your company name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="entry.YOUR_EMAIL_ID" required placeholder="you@company.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="entry.YOUR_PHONE_ID" required placeholder="+1 (904) 555-0000">
+                </div>
+
+                <div class="form-group">
+                    <label for="calls">Daily Call Volume</label>
+                    <input type="text" id="calls" name="entry.YOUR_CALLS_ID" placeholder="Estimated number of calls per day">
+                </div>
+
+                <button type="submit" class="submit-button">
+                    ⚡ REQUEST ACCESS CODE
+                </button>
+
+                <div style="text-align: center; margin-top: 30px; color: #a0a0a0; font-size: 14px;">
+                    <p>◆ No Credit Card Required</p>
+                    <p>◆ 30-Day Free Trial</p>
+                    <p>◆ Cancel Anytime</p>
+                </div>
+            </form>
+
+            <iframe name="hidden_iframe" style="display:none;"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">VOICENTLY</div>
+            <p style="color: #666; margin-bottom: 15px;">Jacksonville, FL → Global Operations</p>
+            <p style="color: #444; font-size: 14px;">
+                📞 (904) 555-VOICE | ✉️ contact@voicently.com
+            </p>
+            <p style="color: #333; margin-top: 30px; font-size: 12px;">
+                © 2025 Voicently Systems | Privacy Policy | Terms of Service
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            setTimeout(function() {
+                alert('✓ ACCESS GRANTED\n\nThank you for your request! We will contact you within 24 hours with your deployment credentials.');
+                document.getElementById('contactForm').reset();
+            }, 500);
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
